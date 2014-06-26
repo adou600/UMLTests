@@ -12,7 +12,7 @@ namespace UMLRelationships
         static void Main(string[] args)
         {
             Class1 c1 = new Class1();
-            string test = Class1.methodWithReturnAndParam("super");
+            string test = c1.methodWithReturnAndParam("super");
 
         }
     }
