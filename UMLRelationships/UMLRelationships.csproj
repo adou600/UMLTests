@@ -42,11 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Aggregation\Car.cs" />
-    <Compile Include="Aggregation\Carburator.cs" />
-    <Compile Include="Aggregation\IRollable.cs" />
-    <Compile Include="Aggregation\Tire.cs" />
-    <Compile Include="Aggregation\Vehicule.cs" />
+    <Compile Include="ClassDiagram\Car.cs" />
+    <Compile Include="ClassDiagram\Carburetor.cs" />
+    <Compile Include="ClassDiagram\Garage.cs" />
+    <Compile Include="ClassDiagram\IRollable.cs" />
+    <Compile Include="ClassDiagram\Key.cs" />
+    <Compile Include="ClassDiagram\Person.cs" />
+    <Compile Include="ClassDiagram\Tire.cs" />
+    <Compile Include="ClassDiagram\Vehicule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

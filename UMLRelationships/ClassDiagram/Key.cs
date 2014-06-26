@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace UMLRelationships.Aggregation
+namespace UMLRelationships.ClassDiagram
 {
     public class Key
     {

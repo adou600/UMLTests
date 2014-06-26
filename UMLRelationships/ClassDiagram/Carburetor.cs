@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UMLRelationships.Aggregation
+namespace UMLRelationships.ClassDiagram
 {
-    public class Carburator
+    public class Carburetor
     {
         private string modelNumber;
 
-        public Carburator()
+        public Carburetor()
         {
             modelNumber = Guid.NewGuid().ToString();
         }

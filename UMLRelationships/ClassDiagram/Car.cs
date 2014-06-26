@@ -5,18 +5,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UMLRelationships.Aggregation
+namespace UMLRelationships.ClassDiagram
 {
     public class Car : Vehicule
     {
         private string name;
-        private Carburator carburator;
+        private Carburetor carburetor;
         private List<Tire> tires;
         private Garage garage;
 
         public Car()
         {
-            carburator = new Carburator();
+            carburetor = new Carburetor();
             tires = new List<Tire>();
         }
 
@@ -47,7 +47,7 @@ namespace UMLRelationships.Aggregation
         ~Car()
         {
             //destroy the carburator with the car
-            carburator = null;
+            carburetor = null;
             //but the tires can continue to live outside of the car...
         }
     }

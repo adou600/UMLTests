@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UMLRelationships.Aggregation
+namespace UMLRelationships.ClassDiagram
 {
     public abstract class Vehicule : IRollable
     {
